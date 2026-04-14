@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STRIQUE PHAME | Afrobeat Highlife</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0a0a0a;color:#fff;line-height:1.6}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url('hero.jpg') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.hero h1{font-size:3rem;letter-spacing:2px;color:#d4af37}
+.hero p{font-size:1.2rem;margin:15px 0 25px;max-width:600px}
+.btn{display:inline-block;padding:12px 28px;margin:5px;background:#d4af37;color:#000;text-decoration:none;font-weight:bold;border-radius:4px}
+.btn-outline{background:transparent;border:2px solid #d4af37;color:#d4af37}
+section{padding:60px 20px;max-width:900px;margin:auto;text-align:center}
+h2{color:#d4af37;margin-bottom:20px;font-size:2rem}
+.video{aspect-ratio:16/9;width:100%;max-width:700px;margin:20px auto}
+.video iframe{width:100%;height:100%;border:none}
+.grid{display:grid;gap:15px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:30px}
+.card{background:#111;padding:20px;border-radius:8px}
+footer{background:#000;padding:30px 20px;text-align:center;font-size:.9rem}
+@media(max-width:600px){.hero h1{font-size:2.2rem}.hero p{font-size:1rem}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>STRIQUE PHAME</h1>
+  <p>Afrobeat Highlife from Accra to the world<br>Palm-wine guitars meet street truth. This is the new Ghana.</p>
+  <div>
+    <a href="https://youtu.be/A06TK57FY-A?si=LOYdTMnQJtQgyddJ" class="btn">▶️ Watch Nevame Agbemenya Di Ga</a>
+    <a href="https://wa.me/233248154516" class="btn btn-outline">Book on WhatsApp</a>
+  </div>
+</div>
+
+<section>
+  <h2>NEVAME AGBEMENYA DI GA – OUT NOW</h2>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/A06TK57FY-A" allowfullscreen></iframe>
+  </div>
+  <a href="https://fanlink.tv/striquephameNevame" class="btn">Stream on all platforms</a>
+</section>
+
+<section style="background:#111">
+  <h2>WHO IS STRIQUE PHAME</h2>
+  <p><strong>Singer | Songwriter | Highlife Futurist</strong></p>
+  <p style="max-width:700px;margin:20px auto">STRIQUE PHAME is an Accra-based Afrobeat Highlife artist blending palm-wine guitar, hard drums, and street truth. Known for breakout single “Nevame Agbemenya Di Ga”, his sound speaks for the hustlers and the hopeful. From Oyibi to the world, STRIQUE PHAME is building Ghana’s next sound — one verse at a time.</p>
+</section>
+
+<section>
+  <h2>BOOKINGS & PHAMEILY</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Book STRIQUE PHAME</h3>
+      <p>WhatsApp: 0248154516<br>Email: book@striquephame.com</p>
+      <a href="https://wa.me/233248154516" class="btn">Chat Now</a>
+    </div>
+    <div class="card">
+      <h3>Merch & Support</h3>
+      <p>Momo: 0248154516<br>Name: Amenyaglo Dei-tutu Prince</p>
+      <p>Digital downloads coming soon</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 STRIQUE PHAME. Oyibi, Accra.</p>
+</footer>
+
+</body>
+</html>
